@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Ashok from './componts/Ashok/Ashok';
 import Bunty from './componts/Bunty/Bunty';

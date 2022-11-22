@@ -3,17 +3,25 @@ import { Link } from 'react-router-dom'
 
 function YCONTACT() {
   return (
-    <div>
-        <center>
-            <h1><u>Yashwanth Contact</u></h1>
-            <h2>MobileNo:939234234</h2>
-            <h2>emailId:yashwanth23@gmail.com</h2>
-            <nav className='nave'>
-      <Link to="/Home">HOME</Link>
-      <Link to="/YABOUT">ABOUT</Link>
-</nav>
-        </center>
+
+<div className='main'>
+    <div className='mainav'>
+    <nav className='nave'>
+    <Link to="/Home">HOME</Link> &nbsp;&nbsp;
+    <Link to="/YABOUT">ABOUT</Link>
+    </nav>
     </div>
+      <center>
+        <div className='person4'>
+      <h1><u>YASHWANTH CONTACT</u></h1>
+      <h2>MobileNo:9100288596</h2>
+      <h2>emailId:yashwanth123@gmail.com</h2>
+     </div>
+    </center>
+  </div>
+
+
+
   )
 }
 

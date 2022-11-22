@@ -35,8 +35,44 @@ text-decoration: none;
   word-spacing: .05em; */
 text-decoration: none;
 }
+.main{
+  display: flex;
+}
+.name{
+ padding: bottom 15px; 
+}
+.person{
+  margin-left: 335px;
+}
+.person1{
+  margin-left: 335px;
+  margin-right: 400px;
+}
+.person2{
+  margin-left: 335px;
+  margin-right: 400px;
+  
+}
+.person3{
+  margin-left: 335px;
+  margin-right: 400px;
+}
+.person4{
+  margin-left: 335px;
+  margin-right: 400px;
+}
 .nave{
-  text-decoration: none;
+   
+  color: red;
+  display: flex;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.mainav{
+text-decoration: none;
+}
+.naveb{
+  color: #fb61c8;
+  
 }
 .care{
   /* text-align: center; */
@@ -57,7 +93,7 @@ text-decoration: none;
   color: aqua;
 }
 .role{
-  color: burlywood;
+  color: rgba(238, 12, 163, 0.493);
 }
 @keyframes App-logo-spin {
   from {
